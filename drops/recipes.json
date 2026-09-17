@@ -1,56 +1,53 @@
 {
   "format": 1,
-  "published": "2026-09-16",
+  "published": "2026-09-17",
   "note": "Unknown keys like this one are ignored by every build; they cost a record nothing.",
   "recipes": [
     {
-      "id": "harbour-dusk",
-      "name": "Harbour Dusk",
+      "id": "harbour-chrome",
+      "name": "Harbour Chrome",
       "version": 1,
-      "released": "2026-09-16",
+      "released": "2026-09-17",
       "film": "harbour-cool",
       "free": true,
-      "description": "The harbour an hour after the light goes: the blue end holds, the warm end is pulled back to a single ember, and the whole frame sits a little under. Both tones tightened over DR400 at 5000 K with red +1, clarity -3 and halation 30, on a film that drifts its reds one degree.",
-      "guidance": "Water, wet streets and window light after sunset. It has nothing to give a bright noon.",
+      "description": "Water and sky come back as the hardest things in the frame: the sky deepening toward the top, cyans with an edge on them, whites left where they fell and the shadows given up without argument. Where Ha Noi Chrome reads this film flat at DR400, this reads it as a slide — DR200 with highlights +1 and shadows +2, saturation +2, both chrome controls strong so the saturated ends gain density instead of clipping, and the film's chroma ceiling opened from compress 6 to 4 so the boosted cyans have somewhere to go. Blue is held back two points at 5200 K instead of five. Clarity +2, sharpness +1, vignette 20.",
+      "guidance": "Sun on water, and daylight hard enough to survive being made harder. It has nothing to give a white overcast sky — that is what Ha Noi Chrome is for.",
       "environment": [
-        "golden-hour",
+        "harsh-sun",
         "water",
-        "street",
-        "night"
-      ],
-      "recipe": "Base: Ha Noi Chrome\nDynamic Range: 400\nHighlight: -2\nShadow: +1\nColor: +1\nColor Chrome: Strong\nColor Chrome Blue: Weak\nWB: 5000K R+1 B-3\nClarity: -3\nSharpness: -1\nGrain: Weak / Small\nHalation: 30\nVignette: 14\nCharacter: Harbour Cool\nDrift: +1\nBleed: 6\nCompress: 6"
-    },
-    {
-      "id": "ember-curfew",
-      "name": "Ember Curfew",
-      "version": 1,
-      "released": "2026-09-16",
-      "film": "ember",
-      "free": false,
-      "description": "Late neon on a warm negative, pushed. Saturation +3 at 6200 K with red +4, both tones lifted over DR100, halation 60 and a strong large grain that the recipe owns rather than borrowing from the camera.",
-      "guidance": "Signs, tail lights and anything bright against a dark street.",
-      "environment": [
-        "night",
-        "street",
-        "indoor-tungsten"
-      ],
-      "recipe": "Base: Ember 800\nDynamic Range: 100\nHighlight: +2\nShadow: +3\nColor: +3\nColor Chrome: Strong\nColor Chrome Blue: Weak\nWB: 6200K R+4 B-6\nClarity: +2\nSharpness: 0\nGrain: Strong / Large\nHalation: 60\nVignette: 28\nCharacter: Ember\nDrift: +2\nBleed: 7\nCompress: 5"
-    },
-    {
-      "id": "frost-mono",
-      "name": "Frost Mono",
-      "version": 1,
-      "released": "2026-09-16",
-      "film": "silver-cool",
-      "free": false,
-      "description": "A cool monochrome for flat light: highlights pulled down, shadows opened, almost no halation and almost no vignette, so a grey day reads as tone rather than as murk. DR400 at 5200 K with blue +2.",
-      "guidance": "Overcast, snow, and any day with no sun in it at all.",
-      "environment": [
-        "overcast",
-        "snow",
         "street"
       ],
-      "recipe": "Base: Silver Mono\nDynamic Range: 400\nHighlight: -1\nShadow: -2\nColor: 0\nColor Chrome: Off\nColor Chrome Blue: Off\nWB: 5200K R-1 B+2\nClarity: -1\nSharpness: 0\nGrain: Weak / Small\nHalation: 12\nVignette: 4\nCharacter: Silver Cool\nDrift: 0\nBleed: 5\nCompress: 6"
+      "recipe": "Base: Ha Noi Chrome\nDynamic Range: 200\nHighlight: +1\nShadow: +2\nColor: +2\nColor Chrome: Strong\nColor Chrome Blue: Strong\nWB: 5200K R0 B-2\nClarity: +2\nSharpness: +1\nGrain: Off / Small\nHalation: 10\nVignette: 20\nCharacter: Harbour Cool\nDrift: +1\nBleed: 5\nCompress: 4"
+    },
+    {
+      "id": "pastel-push",
+      "name": "Pastel Push",
+      "version": 1,
+      "released": "2026-09-17",
+      "film": "pastel-day",
+      "free": true,
+      "description": "The same chalk-pale palette taken two stops further: contrast where Pastel 100 has none, grain over the whole frame, and blacks that finally close under it. Highlights +2 and shadows +3 on DR100 against that recipe's -2 and -2, saturation +3 so the little colour this film leaves standing comes back up without changing which bands it drained, drift +2 to strengthen the pink it lays across the highlights, and the chroma ceiling opened from compress 6 to 4. The grain is the recipe's own, weak and large, and halation 30 puts a bloom on the bright end. White balance is untouched at 5700 K: the palette is the point.",
+      "guidance": "Flat light you want to make something of. Not for a gentle portrait — this is a large grain and it lands on skin.",
+      "environment": [
+        "portrait",
+        "overcast"
+      ],
+      "recipe": "Base: Pastel 100\nDynamic Range: 100\nHighlight: +2\nShadow: +3\nColor: +3\nColor Chrome: Strong\nColor Chrome Blue: Off\nWB: 5700K R+1 B0\nClarity: +2\nSharpness: 0\nGrain: Weak / Large\nHalation: 30\nVignette: 0\nCharacter: Pastel Day\nDrift: +2\nBleed: 5\nCompress: 4"
+    },
+    {
+      "id": "slate-noir",
+      "name": "Slate Noir",
+      "version": 1,
+      "released": "2026-09-17",
+      "film": "overcast",
+      "free": true,
+      "description": "Hard grey weather: a white sky with nothing in it, black road, corners closing in, and concrete, cloth and leaf all reduced to texture. Painted signs and skin are the only things left holding colour, skin being the one band this film protects. DR100 with highlights +2 and shadows +3 where Slate 100 sits open at DR400, saturation -4, and the film's chroma ceiling pulled from 0.221 down to 0.144 at compress 10 — which is what takes the rest of the frame to grey, the saturation control alone not being enough. Clarity +3 and sharpness +1 for the surfaces, vignette 35, halation 10.",
+      "guidance": "Weather with no sun in it, and subjects that survive being reduced to shape. It wastes a scene that was carrying its colour.",
+      "environment": [
+        "overcast",
+        "street"
+      ],
+      "recipe": "Base: Slate 100\nDynamic Range: 100\nHighlight: +2\nShadow: +3\nColor: -4\nColor Chrome: Off\nColor Chrome Blue: Off\nWB: 4800K R-2 B+3\nClarity: +3\nSharpness: +1\nGrain: Off / Small\nHalation: 10\nVignette: 35\nCharacter: Overcast\nDrift: 0\nBleed: 5\nCompress: 10"
     }
   ]
 }
