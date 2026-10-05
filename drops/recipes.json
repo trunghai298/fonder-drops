@@ -17,7 +17,8 @@
         "water",
         "street"
       ],
-      "recipe": "Base: Ha Noi Chrome\nDynamic Range: 200\nHighlight: +1\nShadow: +2\nColor: +2\nColor Chrome: Strong\nColor Chrome Blue: Strong\nWB: 5200K R0 B-2\nClarity: +2\nSharpness: +1\nGrain: Off / Small\nHalation: 10\nVignette: 20\nCharacter: Harbour Cool\nDrift: +1\nBleed: 5\nCompress: 4"
+      "recipe": "Base: Ha Noi Chrome\nDynamic Range: 200\nHighlight: +1\nShadow: +2\nColor: +2\nColor Chrome: Strong\nColor Chrome Blue: Strong\nWB: 5200K R0 B-2\nClarity: +2\nSharpness: +1\nGrain: Off / Small\nHalation: 10\nVignette: 20\nCharacter: Harbour Cool\nDrift: +1\nBleed: 5\nCompress: 4",
+      "sampleID": "harbour-chrome-01"
     },
     {
       "id": "pastel-push",
@@ -32,7 +33,9 @@
         "portrait",
         "overcast"
       ],
-      "recipe": "Base: Pastel 100\nDynamic Range: 100\nHighlight: +2\nShadow: +3\nColor: +3\nColor Chrome: Strong\nColor Chrome Blue: Off\nWB: 5700K R+1 B0\nClarity: +2\nSharpness: 0\nGrain: Weak / Large\nHalation: 30\nVignette: 0\nCharacter: Pastel Day\nDrift: +2\nBleed: 5\nCompress: 4"
+      "recipe": "Base: Pastel 100\nDynamic Range: 100\nHighlight: +2\nShadow: +3\nColor: +3\nColor Chrome: Strong\nColor Chrome Blue: Off\nWB: 5700K R+1 B0\nClarity: +2\nSharpness: 0\nGrain: Weak / Large\nHalation: 30\nVignette: 0\nCharacter: Pastel Day\nDrift: +2\nBleed: 5\nCompress: 4",
+      "sampleID": "pastel-push-01",
+      "extraSampleIDs": ["pastel-push-02"]
     },
     {
       "id": "slate-noir",
